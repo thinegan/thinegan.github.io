@@ -5,7 +5,7 @@ locale: en_US
 description: Describe your website here.
 logo: site-logo.png
 search: true
-url: http://localhost:4000
+#url: http://localhost:4000
 
 # Jekyll configuration
 
@@ -36,9 +36,9 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: Thinegan Ratnam
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: thinegan@thinegan.com
   disqus-shortname:
   twitter: #username
   facebook: #username
