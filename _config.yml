@@ -18,5 +18,10 @@ twitter_username: thinegan
 github_username:  thinegan
 
 # Build settings
-markdown: redcarpet
-pygments: true
+markdown: kramdown
+
+kramdown:
+ input: GFM
+ hard_wrap: false
+
+highlighter: rouge
