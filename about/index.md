@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 excerpt: "So Simple is a responsive Jekyll theme for your words and images."
-modified: 2014-08-08T19:44:38.564948-04:00
+modified: 2016-06-07T23:51:00
 image:
   feature: aboutme-coding_1900_413.jpg
 ---
