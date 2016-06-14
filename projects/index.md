@@ -41,7 +41,7 @@ Tech stack:
 Perl, Bash, CouchDB, PCI, OpenVZ, Apache2_Modperl, Nginx_SSL_Proxy, AWS, OpenVPN, Scrum, Samange, Jira, Git, Debian, Centos
 
 
-## Bizarre Marketing
+## Jos2u.biz
 
 I joined Bizarre Marketing as a web developer.
 I worked on Jos2u.biz a part-time jobbing site. 
