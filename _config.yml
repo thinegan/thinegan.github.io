@@ -2,8 +2,9 @@
 
 title: Thinegan Ratnam
 locale: en_US
-description: Keep Calm and Keep Coding.
+description: Agile Infrastructure and Occasional Code Monkey.
 #logo: site-logo.png
+logo: site-logo-tr.png
 search: true
 #url: http://localhost:4000
 
@@ -39,7 +40,7 @@ owner:
   name: Thinegan Ratnam
   avatar: bio-photo.jpg
   email: thinegan@thinegan.com
-  disqus-shortname:
+#  disqus-shortname: thinegan
   twitter: #username
   facebook: #username
   github: thinegan
@@ -57,3 +58,4 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
+
