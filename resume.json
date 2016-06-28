@@ -41,7 +41,7 @@
       "endDate": "2016-07-01",
       "summary": "MoneyLion, is a data-driven products that enable a better financial future for customers. Data doesn't just enable us to deliver smarter loans, it also empowers our customers to make better financial decisions.",
       "highlights": [
-        "Made the transition of the database from standalone to a replication structure by supporting failover and high availability support",
+        "Made database transition from standalone to a replication structure by supporting failover and high availability support",
         "Rolled out a complete Agile Development Environment for the development team",
         "Achieved and maintaining compliance and security throughout the infrastructure",
         "Help to build a realtime BigData Infrastructure for the data analytic team"
