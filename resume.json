@@ -38,7 +38,7 @@
       "position": "Head of IT Infrastructure",
       "website": "https://www.moneylion.com",
       "startDate": "2014-08-01",
-      "endDate": "2016-08-01",
+      "endDate": "",
       "summary": "MoneyLion, is a data-driven products that enable a better financial future for customers. Data doesn't just enable us to deliver smarter loans, it also empowers our customers to make better financial decisions.",
       "highlights": [
         "Made the transition of the database from standalone to a replication structure by supporting failover and high availability support",
