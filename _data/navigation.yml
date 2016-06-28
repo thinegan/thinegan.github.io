@@ -9,6 +9,10 @@
 - title: Projects
   url: /projects/
 
+- title: Resumé
+  url: /resume
+  new_window: true
+
 - title: Articles
   url: /articles/
 

@@ -1,0 +1,175 @@
+{
+  "basics": {
+    "name": "Thinegan Ratnam",
+    "label": "Head of IT Infrastructure",
+    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/005/0a2/3d2/08abef8.jpg",
+    "email": "thinegan@thinegan.com",
+    "phone": "+6012.476.9693",
+    "website": "https://thinegan.com",
+    "summary": "Hi, my name is Thinegan Ratnam and I’m a Stack Developer based in Kuala Lumpur, Malaysia. I have over 10 years of experience in building system for Internet business, mostly in Unix environment. I have a thorough and practical understanding of how programming languages, application servers, database design, and networking technologies tie together to make useful and scalable web applications.",
+    "location": {
+      "address": "Publika, Solaris Dutamas, No. 1 Jalan Dutamas 1",
+      "postalCode": "50480",
+      "city": "Kuala Lumpur",
+      "countryCode": "Malaysia",
+      "region": "KL"
+    },
+    "profiles": [
+      {
+        "network": "",
+        "username": "",
+        "url": ""
+      },
+      {
+        "network": "Github",
+        "username": "thinegan",
+        "url": "https://github.com/thinegan"
+      },
+      {
+        "network": "Linkedin",
+        "username": "thinegan",
+        "url": "https://linkedin.com/in/thinegan"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "MoneyLion Inc",
+      "position": "Head of IT Infrastructure",
+      "website": "https://www.moneylion.com",
+      "startDate": "2014-08-01",
+      "endDate": "2016-07-01",
+      "summary": "MoneyLion, is a data-driven products that enable a better financial future for customers. Data doesn't just enable us to deliver smarter loans, it also empowers our customers to make better financial decisions.",
+      "highlights": [
+        "Made the transition of the database from standalone to a replication structure by supporting failover and high availability support",
+        "Rolled out a complete Agile Development Environment for the development team",
+        "Achieved and maintaining compliance and security throughout the infrastructure",
+        "Help to build a realtime BigData Infrastructure for the data analytic team"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University Malaya, Malaysia",
+      "area": "Computer Science (Software Engineering)",
+      "studyType": "B.Comp.Sc. (Hons)",
+      "startDate": "2004-06-01",
+      "endDate": "2000-06-01",
+      "gpa": "",
+      "courses": [
+        "Red Hat Certified Engineer (RHCE)",
+        "Red Hat Certified System Administrator (RHCSA)"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "PHP5",
+        "Perl",
+        "MongoDB",
+        "Mysql",
+        "Nginx",
+        "Tomcat",
+        "Node.js",
+        "Git"
+      ]
+    },
+    {
+      "name": "Agile Development",
+      "level": "Master",
+      "keywords": [
+        "Atlassian Bitbucket",
+        "Atlassian Jira",
+        "Atlassian Bamboo",
+        "Atlassian Confluence"
+      ]
+    },
+    {
+      "name": "Business Tools",
+      "level": "Master",
+      "keywords": [
+        "Slack",
+        "Skype",
+        "Lastpass",
+        "Dropbox",
+        "Gmail",
+        "VPN",
+        "Google Drive"
+      ]
+    },
+    {
+      "name": "Devops",
+      "level": "Master",
+      "keywords": [
+        "NewRelic",
+        "Docker",
+        "VirtualBox",
+        "Ansible",
+        "BrowserStack",
+        "Logentries",
+        "PagerDuty",
+        "Bash",
+        "Cloudflare"
+      ]
+    },
+    {
+      "name": "Amazon (AWS)",
+      "level": "Master",
+      "keywords": [
+        "EC2",
+        "S3",
+        "VPC",
+        "EBS",
+        "Redshift",
+        "SimpleDB",
+        "Route53",
+        "Glacier",
+        "Cloudfront"
+      ]
+    },
+    {
+      "name": "BigData",
+      "level": "Master",
+      "keywords": [
+        "MongoConnector",
+        "ElasticSearch Cluster",
+        "Kibana Report"
+      ]
+    },
+    {
+      "name": "Security / Compliance",
+      "level": "Master",
+      "keywords": [
+        "PCI DSS",
+        "MFA / DuoSecurity",
+        "IPtables",
+        "Trustee",
+        "SSL",
+        "Transunion Banking"
+      ]
+    },
+    {
+      "name": "Server/Workstation Platform",
+      "level": "master",
+      "keywords": [
+        "Debian",
+        "Ubuntu",
+        "CentOS",
+        "Redhat Enterprise",
+        "Mac OS X"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": []
+}
