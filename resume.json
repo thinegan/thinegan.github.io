@@ -38,13 +38,40 @@
       "position": "Head of IT Infrastructure",
       "website": "https://www.moneylion.com",
       "startDate": "2014-08-01",
-      "endDate": "2016-07-01",
+      "endDate": "2016-08-01",
       "summary": "MoneyLion, is a data-driven products that enable a better financial future for customers. Data doesn't just enable us to deliver smarter loans, it also empowers our customers to make better financial decisions.",
       "highlights": [
-        "Made database transition from standalone to a replication structure by supporting failover and high availability support",
+        "Made the transition of the database from standalone to a replication structure by supporting failover and high availability support",
         "Rolled out a complete Agile Development Environment for the development team",
         "Achieved and maintaining compliance and security throughout the infrastructure",
         "Help to build a realtime BigData Infrastructure for the data analytic team"
+      ]
+    },
+    {
+      "company": "Binary.com",
+      "position": "Senior System Engineer",
+      "website": "www.binary.com",
+      "startDate": "2011-01-01",
+      "endDate": "2014-07-01",
+      "summary": "I worked on Binary.com, a provider of fixed-odd financial contracts, as an employee of Regent Markets (the site’s owner) for 4 years. The service has a large user base, and I worked to maintaining the system and bring it forward. I learned a lot about the dynamics of a system engineering during my time there, from how to have the discipline to writing quality perl code, to the difficulties of managing and keeping over 50 servers secure all around the world. Definitely my pragmatism, attitude toward Getting Things Done.",
+      "highlights": [
+        "Setup and maintains multiple servers all around the world",
+        "Ensuring infrastructures securities are all up-to-date and meets all the compliances requirement",
+        "Working together with datacenter's vendors to ensure smooth workflow from purchasing, to shipping, to installation in datacenter racks",
+        "Analyze SLA, contract and term of services provided before making the suitable purchases"
+      ]
+    },
+    {
+      "company": "RMG Technology Sdn Bhd",
+      "position": "System Administrator",
+      "website": "www.binary.com",
+      "startDate": "2006-07-01",
+      "endDate": "2010-12-31",
+      "summary": "I worked on RMG Technology, a provider of fixed-odd financial contracts, as an employee of Regent Markets (the site’s owner) for 4 years. The service has a large user base, and I worked to maintaining the system and bring it forward. I learned a lot about the dynamics of a system engineering during my time there, from how to have the discipline to writing quality perl code, to the difficulties of managing and keeping over 50 servers secure all around the world. Definitely my pragmatism, attitude toward Getting Things Done.",
+      "highlights": [
+        "Provide tech support to both office team and telecommuters who work around the round",
+        "Help to perform testing and minor bug fixing",
+        "Manage company's domains and tech assets"
       ]
     }
   ],
@@ -54,8 +81,8 @@
       "institution": "University Malaya, Malaysia",
       "area": "Computer Science (Software Engineering)",
       "studyType": "B.Comp.Sc. (Hons)",
-      "startDate": "2004-06-01",
-      "endDate": "2000-06-01",
+      "startDate": "2000-06-01",
+      "endDate": "2004-06-01",
       "gpa": "",
       "courses": [
         "Red Hat Certified Engineer (RHCE)",
