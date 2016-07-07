@@ -21,7 +21,7 @@ Atlasssian Jira which use Kanban and Scrum. Continuos Integration which automate
 and finally Code management using Atlassian Bitbucket git repository.
 
 I also extended my knowledge into setting up Realtime Business Intelligence service. My approach was to use ElasticSearch Clusters
-and Kibana reporting tools. This tools help data-analytic to analyze data and build reports oon realtime.
+and Kibana reporting tools. This tools help data-analytic to analyze data and build reports on realtime.
 
 
 Tech stack:
