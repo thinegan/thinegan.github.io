@@ -4,7 +4,7 @@
     "label": "Head of IT Infrastructure",
     "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/005/0a2/3d2/08abef8.jpg",
     "email": "thinegan@thinegan.com",
-    "phone": "+6012.476.9693",
+    "phone": "+6012 476 9693",
     "website": "https://thinegan.com",
     "summary": "Hi, my name is Thinegan Ratnam and I’m a Stack Developer based in Kuala Lumpur, Malaysia. I have over 10 years of experience in building system for Internet business, mostly in Unix environment. I have a thorough and practical understanding of how programming languages, application servers, database design, and networking technologies tie together to make useful and scalable web applications.",
     "location": {
@@ -84,10 +84,52 @@
       "startDate": "2000-06-01",
       "endDate": "2004-06-01",
       "gpa": "",
-      "courses": [
-        "Red Hat Certified Engineer (RHCE)",
-        "Red Hat Certified System Administrator (RHCSA)"
-      ]
+      "courses": []
+    },
+    {
+      "institution": "CertID : 120-194-295",
+      "area": "RHCE",
+      "studyType": "Red Hat Certified Engineer",
+      "startDate": "2013-10-01",
+      "endDate": "2016-10-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "CertID : 120-194-295",
+      "area": "RHCSA",
+      "studyType": "Red Hat Certified System Administrator",
+      "startDate": "2013-10-01",
+      "endDate": "2016-10-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Certificate of Completion",
+      "area": "Security",
+      "studyType": "Anti-Money Laundering",
+      "startDate": "2016-05-01",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Certificate of Completion",
+      "area": "Security",
+      "studyType": "Information Security",
+      "startDate": "2016-05-01",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Certificate of Completion",
+      "area": "Security",
+      "studyType": "US Data Privacy and Security",
+      "startDate": "2016-05-01",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
     }
   ],
   "awards": [],
@@ -103,7 +145,6 @@
         "PHP5",
         "Perl",
         "MongoDB",
-        "Mysql",
         "Nginx",
         "Tomcat",
         "Node.js",
@@ -118,49 +159,6 @@
         "Atlassian Jira",
         "Atlassian Bamboo",
         "Atlassian Confluence"
-      ]
-    },
-    {
-      "name": "Business Tools",
-      "level": "Master",
-      "keywords": [
-        "Slack",
-        "Skype",
-        "Lastpass",
-        "Dropbox",
-        "Gmail",
-        "VPN",
-        "Google Drive"
-      ]
-    },
-    {
-      "name": "Devops",
-      "level": "Master",
-      "keywords": [
-        "NewRelic",
-        "Docker",
-        "VirtualBox",
-        "Ansible",
-        "BrowserStack",
-        "Logentries",
-        "PagerDuty",
-        "Bash",
-        "Cloudflare"
-      ]
-    },
-    {
-      "name": "Amazon (AWS)",
-      "level": "Master",
-      "keywords": [
-        "EC2",
-        "S3",
-        "VPC",
-        "EBS",
-        "Redshift",
-        "SimpleDB",
-        "Route53",
-        "Glacier",
-        "Cloudfront"
       ]
     },
     {
@@ -181,7 +179,7 @@
         "IPtables",
         "Trustee",
         "SSL",
-        "Transunion Banking"
+        "Banking Compliance"
       ]
     },
     {
@@ -193,6 +191,18 @@
         "CentOS",
         "Redhat Enterprise",
         "Mac OS X"
+      ]
+    },
+    {
+      "name": "Devops",
+      "level": "Master",
+      "keywords": [
+        "Amazon (AWS)",
+        "NewRelic",
+        "Docker",
+        "Ansible",
+        "Logentries",
+        "Bash"
       ]
     }
   ],
