@@ -19,19 +19,3 @@ a position that sees me working with US based companies.
 For more information about what I do and have done, check out my projects page.
 If you’d like to get in touch, email me at [thinegan@thinegan.com](mailto:thinegan@thinegan.com).
 
-## Tech Stack
-
-* **Server OS** &raquo; Debian, RedHat, Centos, Ubuntu, Windows
-* **Amazon AWS** &raquo;EC2, VPC, S3, ELB, CloudFront, Route53, IAM, CloudWatch
-* **Repository** &raquo; Git, Bitbucket, GitHub, Maven (Archiva)
-* **Virtualization** &raquo; OpenVZ, KVM, VMware
-* **Backup** &raquo; Rsync, SAN, NFS, DropBox, TimeMachine, CrashPlan
-* **Security** &raquo; Two­Factor Authentication, IPTables, SSL, Penetration Testing
-* **Database** &raquo; MongoDB, Mysql, PostgreSQL
-* **BigData Tools** &raquo; ElasticSearch Cluster, Kibana Report
-* **Compliance** &raquo; PCI DSS (Tenable), Truste, Transunion (finance)
-* **Automation** &raquo; Ansible
-* **Scripting** &raquo; PHP5, Perl, Bash, Python, CSS3, HTML5, XML, JQuery
-* **Web/Server-side** &raquo; LAMP, Nginx, Tomcat, Node.js
-* **Monitoring & Logging** &raquo; NewRelic, Logentries
-* **Continuous Integration & Deployment** &raquo; Atlassia Jira, Stash, Bamboo, Confluence
