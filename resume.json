@@ -83,7 +83,7 @@
       "studyType": "B.Comp.Sc. (Hons)",
       "startDate": "2000-06-01",
       "endDate": "2004-06-01",
-      "gpa": "",
+      "gpa": "Download PDF Cert1",
       "courses": []
     },
     {
@@ -92,7 +92,7 @@
       "studyType": "Red Hat Certified Engineer",
       "startDate": "2013-10-01",
       "endDate": "2016-10-01",
-      "gpa": "",
+      "gpa": "Download PDF Cert2",
       "courses": []
     },
     {
@@ -101,7 +101,7 @@
       "studyType": "Red Hat Certified System Administrator",
       "startDate": "2013-10-01",
       "endDate": "2016-10-01",
-      "gpa": "",
+      "gpa": "Download PDF Cert3",
       "courses": []
     },
     {
@@ -109,8 +109,8 @@
       "area": "Security",
       "studyType": "Anti-Money Laundering",
       "startDate": "2016-05-01",
-      "endDate": "",
-      "gpa": "",
+      "endDate": "2019-05-01",
+      "gpa": "Download PDF Cert4",
       "courses": []
     },
     {
@@ -118,8 +118,8 @@
       "area": "Security",
       "studyType": "Information Security",
       "startDate": "2016-05-01",
-      "endDate": "",
-      "gpa": "",
+      "endDate": "2019-05-01",
+      "gpa": "Download PDF Cert5",
       "courses": []
     },
     {
@@ -127,8 +127,17 @@
       "area": "Security",
       "studyType": "US Data Privacy and Security",
       "startDate": "2016-05-01",
-      "endDate": "",
-      "gpa": "",
+      "endDate": "2019-05-01",
+      "gpa": "Download PDF Cert6",
+      "courses": []
+    },
+    {
+      "institution": "AWS-ASA-20981",
+      "area": "AWS Certified",
+      "studyType": "Solutions Architect - Associate Level",
+      "startDate": "2016-09-15",
+      "endDate": "2018-09-15",
+      "gpa": "Download PDF Cert7",
       "courses": []
     }
   ],
