@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Thinegan Ratnam",
-    "label": "Head of IT Infrastructure",
+    "label": "Cloud Engineer",
     "picture": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/005/0a2/3d2/08abef8.jpg",
     "email": "thinegan@thinegan.com",
     "phone": "+6012 476 XXXX",
     "website": "https://thinegan.com",
-    "summary": "Hi, my name is Thinegan Ratnam and I’m a Stack Developer based in Kuala Lumpur, Malaysia. I have over 12 years of experience in building system for Internet business, mostly in Unix environment. I have a thorough and practical understanding of how programming languages, application servers, database design, and networking technologies tie together to make useful and scalable web applications.",
+    "summary": "Hi, my name is Thinegan Ratnam and I’m a Cloud Engineer based in Kuala Lumpur, Malaysia. I have over 13 years of experience in building system for Internet business, mostly in Unix environment. I have a thorough and practical understanding of how programming languages, application servers, database design, and networking technologies tie together to make useful and scalable web applications.",
     "location": {
       "address": "Publika, Solaris Dutamas, No. 1 Jalan Dutamas 1",
       "postalCode": "50480",
@@ -38,13 +38,21 @@
       "position": "Head of IT Infrastructure",
       "website": "https://www.moneylion.com",
       "startDate": "2014-08-01",
-      "endDate": "",
+      "endDate": "2016-08-31",
       "summary": "MoneyLion, is a data-driven products that enable a better financial future for customers. Data doesn't just enable us to deliver smarter loans, it also empowers our customers to make better financial decisions.",
       "highlights": [
-        "Made the transition of the database from standalone to a replication structure by supporting failover and high availability support",
-        "Rolled out a complete Agile Development Environment for the development team",
-        "Achieved and maintaining compliance and security throughout the infrastructure",
-        "Help to build a realtime BigData Infrastructure for the data analytic team"
+        "Managed and Built a resilient architecture on AWS Platform.",
+        "- Built services on top of Elastic Load Balancer across Multi Availability Zone.",
+        "- Built Multi-Region platform that supports Failover using Route53, DNS service.",
+        "- Built Disaster Recovery platform with lower RTO and RPO threshold.",
+        "- Built Auto-Scaling for High Traffic Applications that can able to expand and shrink according to traffic size.",
+        "Made the transition of the database MongoDB from standalone to a replication structure by supporting failover and high availability support.",
+        "Rolled out a complete Agile Development Environment for the development team.",
+        "- Atlassian Jira (Agile Project Management Tool)",
+        "- Atlassian Bamboo (Code compile, build, Test, Release)",
+        "- Atlassian Bitbucket (Code repository & management)",
+        "Achieved and maintaining compliance (PCI DSS) and security throughout the infrastructure.",
+        "Help to build a realtime BigData Infrastructure (Elasticsearch) for the data analytic team."
       ]
     },
     {
@@ -55,10 +63,20 @@
       "endDate": "2014-07-01",
       "summary": "I worked on Binary.com, a provider of fixed-odd financial contracts, as an employee of Regent Markets (the site’s owner) for 4 years. The service has a large user base, and I worked to maintaining the system and bring it forward. I learned a lot about the dynamics of a system engineering during my time there, from how to have the discipline to writing quality perl code, to the difficulties of managing and keeping over 50 servers secure all around the world. Definitely my pragmatism, attitude toward Getting Things Done.",
       "highlights": [
-        "Setup and maintains multiple servers all around the world",
-        "Ensuring infrastructures securities are all up-to-date and meets all the compliances requirement",
-        "Working together with datacenter's vendors to ensure smooth workflow from purchasing, to shipping, to installation in datacenter racks",
-        "Analyze SLA, contract and term of services provided before making the suitable purchases"
+        "Setup and maintained multiple servers all around the world.",
+        "- Setup Instances for Development use case.",
+        "- Setup and Managed CloudFront for static content",
+        "- Rolled out Windows, Thin Client for Accounting Department.",
+        "Ensured infrastructures securities are all up-to-date and meets all the compliances requirement.",
+        "- Performed PCI DSS Scanning (Nessus Tenable) on quarterly basis and also making sure that all security holes been patched before releasing it to production environment.",
+        "Worked together with data center's vendors to ensure smooth workflow from purchasing, to shipping, to installation in datacenter racks.",
+        "- ThePlanet (Texas,USA)",
+        "- ManxTelecom (Isle of Man,UK)",
+        "- Bellmed (Malta)",
+        "- DigitalPacific (Australia)",
+        "- Colo4dallas (Texas,USA)",
+        "Analyzed SLA, contract and term of services provided before making the suitable purchases.",
+        "- Vendor involved, Amazon, Google, MaxCDN, Cloudflare, Godaddy, Dell PowerEdge Servers."
       ]
     },
     {
@@ -69,9 +87,27 @@
       "endDate": "2010-12-31",
       "summary": "I worked on RMG Technology, a provider of fixed-odd financial contracts, as an employee of Regent Markets (the site’s owner) for 4 years. The service has a large user base, and I worked to maintaining the system and bring it forward. I learned a lot about the dynamics of a system engineering during my time there, from how to have the discipline to writing quality perl code, to the difficulties of managing and keeping over 50 servers secure all around the world. Definitely my pragmatism, attitude toward Getting Things Done.",
       "highlights": [
-        "Provide tech support to both office team and telecommuters who work around the round",
-        "Help to perform testing and minor bug fixing",
-        "Manage company's domains and tech assets"
+        "Provide all around support to both office team and telecommuters:",
+        "- Customer Support, OTRS, Desk.com, Keyphone (PBX LG GHX616)",
+        "- User Authorization, (User Access Level, Clearance, Password Safe Keeping)",
+        "- Tech Team, Testing/development platform (OpenVZ), Git Access",
+        "- Finance & Admin Team, Payment Server, SVN, Hardware Support (Fax, Scanner, Bank USB Key Token, Cups-HPLib-Printer, Keyphone)",
+        "- Telecommuters, Remote branch Malta, Singapore, Germany, USA (SSH, VNC, RDP, PPTP, OpenVPN, IPTables accessibility for fixed ip)",
+        "Help to perform testing and minor bug fixing.",
+        "- System Bug Fix, Backend Enhancement & Setup Server Scripts - Perl",
+        "Managed Procurement, Domains, Services renewal, and Inventory/Assets Tag Management System (Samanage)"
+      ]
+    },
+    {
+      "company": "Genusis Consultancy Sdn Bhd",
+      "position": "Web Developer (LAMP)",
+      "website": "http://www.genusis.com/",
+      "startDate": "2004-07-01",
+      "endDate": "2006-03-28",
+      "summary": "During my early days, I was working in a SMS (short message service) company.",
+      "highlights": [
+        "Create a web-based (PHP) online sms system for clients.",
+        "Create CMS portal and mobile content download."
       ]
     }
   ],
@@ -138,6 +174,33 @@
       "startDate": "2016-09-15",
       "endDate": "2018-09-15",
       "gpa": "Download PDF Cert7",
+      "courses": []
+    },
+    {
+      "institution": "AWS-ADEV-8750",
+      "area": "AWS Certified",
+      "studyType": "Developer - Associate Level",
+      "startDate": "2017-02-07",
+      "endDate": "2019-02-07",
+      "gpa": "Download PDF Cert8",
+      "courses": []
+    },
+    {
+      "institution": "AWS-ASOA-6499",
+      "area": "AWS Certified",
+      "studyType": "Sysops Administrator - Associate Level",
+      "startDate": "2017-01-31",
+      "endDate": "2019-01-31",
+      "gpa": "Download PDF Cert9",
+      "courses": []
+    },
+    {
+      "institution": "AWS-PDOE-1659",
+      "area": "AWS Certified",
+      "studyType": "Devops Engineer  - Professional Level",
+      "startDate": "2017-02-20",
+      "endDate": "2019-02-20",
+      "gpa": "Download PDF Cert10",
       "courses": []
     }
   ],
