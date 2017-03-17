@@ -19,3 +19,11 @@ a position that sees me working with US based companies.
 For more information about what I do and have done, check out my projects page.
 If you’d like to get in touch, email me at [thinegan@thinegan.com](mailto:thinegan@thinegan.com).
 
+<figure class="third">
+	<img src="../images/AWS-Solutions-Architect-Associate.png" alt="image">
+	<img src="../images/AWS-Developer-Associate.png" alt="image">
+	<img src="../images/AWS-SysOps-Administrator-Associate.png" alt="image">
+	<img src="../images/AWS-Certified-DevOps Engineer-Professional_Large.png" alt="image">
+	<img src="../images/Redhat-Cetified-Engineer.jpg" alt="image">
+</figure>
+
