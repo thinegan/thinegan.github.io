@@ -128,42 +128,74 @@ Example using AWS CLI Command :
 
 2. Next install [AWS CLI](aws.amazon.com/cli) in your workstation.
 
-3. Upload the files in the "infrastructure" directory into to your own S3 bucket.
- - Eg. aws s3 cp --recursive infrastructure/ s3://cf-templates-19sg5y0d6d084-ap-southeast-1/
+3. Upload all files in the "infrastructure" directory into to your own S3 bucket.
+
+```console
+Example :
+aws s3 cp --recursive /path_to_template/cloudformation-project1/infrastructure \
+s3://cf-templates-19sg5y0d6d084-ap-southeast-1/
+	
+```
 
 4. You can run the master.yaml file from your workstation.
 
 ```console
-Broken down to 2-step to avoid too much time consuming and a single process.
-Run step 1 first before running step 2, since step 2 require export variable from step 1.
-If you don't want to use Cloudfront, then you can avoid step 2.
+Broken down into 2-Stages to avoid too much time consuming and a single process.
+Run Stage1 first before running Stage2, since Stage2 require export variable
+from Stage1. If you don't want to create Cloudfront, then you can avoid Stage2.
 
-Step 1 (~ 25 - 35 minutes)
-- Note :stack-name that can be used are (dev, staging, prod)
+Stage1 (~ 25 - 35 minutes)
+===========================
+To create a environment :
+aws cloudformation create-stack \
+--stack-name <env> \
+--capabilities=CAPABILITY_IAM \
+--template-body file:////path_to_template//cloudformation-project1//master.yaml
 
-Deploy a Development Environment
-#/> aws cloudformation create-stack --stack-name dev --capabilities=CAPABILITY_IAM --template-body file:////path//cloudformation-project1//master.yaml
+To update a environment :
+aws cloudformation update-stack \
+--stack-name <env> \
+--capabilities=CAPABILITY_IAM \
+--template-body file:////path_to_template//cloudformation-project1//master.yaml
 
-Deploy a Staging Environment
-#/> aws cloudformation create-stack --stack-name staging --capabilities=CAPABILITY_IAM --template-body file:////path//cloudformation-project1//master.yaml
+To delete a environment :
+aws cloudformation delete-stack --stack-name <env>
 
-Deploy a Production Environment
-#/> aws cloudformation create-stack --stack-name prod --capabilities=CAPABILITY_IAM --template-body file:////path//cloudformation-project1//master.yaml
+<env> - Note :stack-name that can be used are (dev, staging, prod)
 
-Step 2 (~ 35 - 45 minutes)
-- Note :stack-name that can be used are (devCDN, stagingCDN  prodCDN)
 
-Deploy a Development Cloudfront Static Content
-#/> aws cloudformation create-stack --stack-name devCDN --template-body file:////path//cloudformation-project1//infrastructure//webapp-cdn.yaml
+Stage2 (~ 35 - 45 minutes)
+===========================
+To create a environment :
+aws cloudformation create-stack \
+--stack-name <envCDN> \
+--capabilities=CAPABILITY_IAM \
+--template-body file:////path_to_template//cloudformation-project1//infrastructure//webapp-cdn.yaml
 
-Deploy a Staging Cloudfront Static Content
-#/> aws cloudformation create-stack --stack-name stagingCDN --template-body file:////path//cloudformation-project1//infrastructure//webapp-cdn.yaml
+To update a environment :
+aws cloudformation update-stack \
+--stack-name <envCDN> \
+--capabilities=CAPABILITY_IAM \
+--template-body file:////path_to_template//cloudformation-project1//infrastructure//webapp-cdn.yaml
 
-Deploy a Production Cloudfront Static Content
-#/> aws cloudformation create-stack --stack-name prodCDN --template-body file:////path//cloudformation-project1//infrastructure//webapp-cdn.yaml
+To delete a environment :
+aws cloudformation delete-stack --stack-name <envCDN>
+
+<envCDN> - Note :stack-name that can be used are (devCDN, stagingCDN, prodCDN)
+
+
+Example :
+aws cloudformation create-stack \
+--stack-name dev \
+--capabilities=CAPABILITY_IAM \
+--template-body file:////path_to_template//cloudformation-project1//master.yaml
+
+aws cloudformation create-stack \
+--stack-name devCDN \
+--capabilities=CAPABILITY_IAM \
+--template-body file:////path_to_template//cloudformation-project1//infrastructure//webapp-cdn.yaml
 	
 ```
-
 
 ### Adjust the Auto Scaling parameters for ECS hosts and services
 
@@ -196,6 +228,40 @@ This set of templates deploys the following network design:
 You can adjust the CIDR ranges used in this section of the [master.yaml](https://github.com/thinegan/cloudformation-project1/blob/master/master.yaml) template:
 
 ```yaml
+
+# Update Domain Name
+PMHostedZone:
+  Default: "kasturicookies.com"
+  Description: "Enter an existing Hosted Zone."
+  Type: "String"
+
+# Update Sub-domain
+# Update Auto Scaling parameters (MIN,MAX,Desired)
+dev:
+  ASMIN: '2'
+  ASMAX: '2'
+  ASDES: '2'
+  WEBDOMAIN: "dev.kasturicookies.com"
+  CDNDOMAIN: "devel.kasturicookies.com"
+
+staging:
+  ASMIN: '2'
+  ASMAX: '2'
+  ASDES: '2'
+  WEBDOMAIN: "staging.kasturicookies.com"
+  CDNDOMAIN: "static.kasturicookies.com"
+
+prod:
+  ASMIN: '2'
+  ASMAX: '5'
+  ASDES: '2'
+  WEBDOMAIN: "www.kasturicookies.com"
+  CDNDOMAIN: "cdn.kasturicookies.com"
+
+# Update Uploaded SSL ARN
+CertARN: "arn:aws:acm:us-east-1:370888776060:certificate/eec1f4f2-2632-4d20-bd8a-fbfbcdb15920"
+
+# CIDR ranges
 VPC:
   Type: AWS::CloudFormation::Stack
     Properties:
@@ -207,4 +273,21 @@ VPC:
         PMPublicSubnet2CIDR:  10.0.2.0/24
         PMPrivateSubnet1CIDR: 10.0.3.0/24
         PMPrivateSubnet2CIDR: 10.0.4.0/24
+
+# DB Config
+MyRDS:
+  Type: "AWS::CloudFormation::Stack"
+  DependsOn:
+  - "MySecurityGroup"
+  Properties:
+    TemplateURL: !Sub "${PMTemplateURL}/webapp-rds.yaml"
+    TimeoutInMinutes: '5'
+    Parameters:
+      DatabaseUser: "startupadmin"
+      DatabasePassword: "xxxxxxxx"
+      DatabaseName: !Sub "${AWS::StackName}db"
+      DatabaseSize: '5'
+      DatabaseEngine: "mysql"
+      DatabaseInstanceClass: "db.t2.micro"
+
 ```
