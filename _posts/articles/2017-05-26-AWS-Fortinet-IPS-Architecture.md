@@ -154,6 +154,8 @@ aws cloudformation delete-stack --stack-name <env>
 
 ![physical_topology]({{ site.url }}/assets/images/physical_topology.png)
 
+![logical_topology]({{ site.url }}/assets/images/logical_topology.png)
+
 ![restrict-access-trusted-host]({{ site.url }}/assets/images/restrict-access-trusted-host.png)
 
 ![ft-network-interface]({{ site.url }}/assets/images/ft-network-interface.png)
@@ -275,6 +277,10 @@ aws cloudformation create-stack \
 --template-body file:////path_to_template//cloudformation-project3//infrastructure//fortinet-webserver.yaml
 	
 ```
+### Download Configuration
+
+Here a sample to configuration that you can use [FGTAWS0005616164_20170526_2359.conf](https://github.com/thinegan/cloudformation-project3/blob/master/FGTAWS0005616164_20170526_2359.conf).
+
 ### Deploy multiple environments (e.g., dev, staging, production)
 
 Deploy another CloudFormation stack from the same set of templates to create a new environment. The stack name provided when deploying the stack is prefixed to all taggable resources (e.g., EC2 instances, VPCs, etc.) so you can distinguish the different environment resources in the AWS Management Console. 
