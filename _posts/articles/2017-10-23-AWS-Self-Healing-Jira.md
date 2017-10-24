@@ -66,23 +66,23 @@ The templates below are included in this repository and reference architecture:
 
 | Template  |---| Description |
 |-----------|---|:------------|
-| [master.yaml](master.yaml) || This is the master template - deploy it to CloudFormation and it includes all of the nested templates automatically. |
+| [master.yaml](https://github.com/thinegan/cloudformation-jira/blob/master/master.yaml) || This is the master template - deploy it to CloudFormation and it includes all of the nested templates automatically. |
 |-----------|---|:------------|
-| [infrastructure/atlassian-iam.yaml](infrastructure/atlassian-iam.yaml) || This template deploys will create policy to allow EC2 instance full access to S3 & CloudWatch, and VPC Logs to CloudWatch. |
+| [infrastructure/atlassian-iam.yaml](https://github.com/thinegan/cloudformation-jira/blob/master/infrastructure/atlassian-iam.yaml) || This template deploys will create policy to allow EC2 instance full access to S3 & CloudWatch, and VPC Logs to CloudWatch. |
 |-----------|---|:------------|
-| [infrastructure/atlassian-s3bucket.yaml](infrastructure/atlassian-s3bucket.yaml) || This template deploys Backup Data Bucket with security data at rest and archive objects greater than 60 days, and ELB logging. |
+| [infrastructure/atlassian-s3bucket.yaml](https://github.com/thinegan/cloudformation-jira/blob/master/infrastructure/atlassian-s3bucket.yaml) || This template deploys Backup Data Bucket with security data at rest and archive objects greater than 60 days, and ELB logging. |
 |-----------|---|:------------|
-| [infrastructure/atlassian-vpc.yaml](infrastructure/atlassian-vpc.yaml) || This template deploys a VPC with a pair of public and private subnets spread across two Availability Zones. It deploys an [Internet gateway](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Internet_Gateway.html), with a default route on the public subnets. It deploys 2 [NAT gateways](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpc-nat-comparison.html), and default routes for them in the private subnets. |
+| [infrastructure/atlassian-vpc.yaml](https://github.com/thinegan/cloudformation-jira/blob/master/infrastructure/atlassian-vpc.yaml) || This template deploys a VPC with a pair of public and private subnets spread across two Availability Zones. It deploys an [Internet gateway](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Internet_Gateway.html), with a default route on the public subnets. It deploys 2 [NAT gateways](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/vpc-nat-comparison.html), and default routes for them in the private subnets. |
 |-----------|---|:------------|
-| [infrastructure/atlassian-securitygroup.yaml](infrastructure/atlassian-securitygroup.yaml) || This template contains the [security groups](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_SecurityGroups.html) and [Network ACLs](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_ACLs.html) required by the entire stack. |
+| [infrastructure/atlassian-securitygroup.yaml](https://github.com/thinegan/cloudformation-jira/blob/master/infrastructure/atlassian-securitygroup.yaml) || This template contains the [security groups](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_SecurityGroups.html) and [Network ACLs](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_ACLs.html) required by the entire stack. |
 |-----------|---|:------------|
-| [infrastructure/atlassian-rds.yaml](infrastructure/atlassian-rds.yaml) || This template deploys a (Mysql) Relational Database Service. |
+| [infrastructure/atlassian-rds.yaml](https://github.com/thinegan/cloudformation-jira/blob/master/infrastructure/atlassian-rds.yaml) || This template deploys a (Mysql) Relational Database Service. |
 |-----------|---|:------------|
-| [infrastructure/atlassian-elb.yaml](infrastructure/atlassian-elb.yaml) || This template deploys a Elastic Load Balancer that exposes http and https. |
+| [infrastructure/atlassian-elb.yaml](https://github.com/thinegan/cloudformation-jira/blob/master/infrastructure/atlassian-elb.yaml) || This template deploys a Elastic Load Balancer that exposes http and https. |
 |-----------|---|:------------|
-| [infrastructure/atlassian-autoscaling-jira.yaml](infrastructure/atlassian-autoscaling-jira.yaml) || This template deploys an Jira Docker to the private subnets using an Auto Scaling group. |
+| [infrastructure/atlassian-autoscaling-jira.yaml](https://github.com/thinegan/cloudformation-jira/blob/master/infrastructure/atlassian-autoscaling-jira.yaml) || This template deploys an Jira Docker to the private subnets using an Auto Scaling group. |
 |-----------|---|:------------|
-| [infrastructure/atlassian-route53.yaml](infrastructure/atlassian-route53.yaml) || This template deploys Route 53 recordset to update ELB Alias. |
+| [infrastructure/atlassian-route53.yaml](https://github.com/thinegan/cloudformation-jira/blob/master/infrastructure/atlassian-route53.yaml) || This template deploys Route 53 recordset to update ELB Alias. |
 |-----------|---|:------------|
 | 
 |-----------|---|:------------|
