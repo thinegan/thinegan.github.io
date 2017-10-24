@@ -33,7 +33,7 @@ Before you can deploy this process, you need the following:
 ## Tested on the following Region:
  - US East (N. Virginia)
 
-![jira-infrastructure-overview]({{ site.url }}(/assets/images/Multi-AZ_and_Self-Healing_Atlassian_Jira_with_Docker.png)
+![jira-infrastructure-overview]({{ site.url }}/assets/images/Multi-AZ_and_Self-Healing_Atlassian_Jira_with_Docker.png)
 
 The repository consists of a set of nested templates that deploy the following:
 
