@@ -76,6 +76,8 @@ After the CloudFormation templates have been deployed, the [stack outputs](http:
 
 ![stack-outputs]({{ site.url }}/assets/images/rds_cloudformation_output.png)
 
+![rds_parameter]({{ site.url }}/assets/images/rds_parameter.png)
+
 ![rds_cluster_1]({{ site.url }}/assets/images/rds_cluster_1.png)
 
 ![rds_cluster_2]({{ site.url }}/assets/images/rds_cluster_2.png)
